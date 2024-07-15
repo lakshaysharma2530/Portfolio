@@ -1,0 +1,118 @@
+.header{
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+    
+    backdrop-filter:blur(25px);
+    -webkit-backdrop-filter: blur(50px);
+    background-color: rgba(109, 109, 109, 0.119);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.337);
+} 
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+}
+.text{
+    display: flex;
+    gap: 8px;
+    margin-top: -30px;
+    
+}
+.text p{
+    margin-bottom: 0;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    font-weight: 500;
+    color: white;
+    font-size: 40px;
+}
+.desig{  
+    margin: 0%;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+}
+.grad{
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(135deg,rgb(255, 136, 0), rgb(255, 0, 157),rgb(84, 52, 200));
+    background-size: auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.description{
+    width:60%;
+    color: aliceblue;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.hireme{
+    background-color: black;
+    background-image: linear-gradient(135deg,rgba(255, 136, 0, 1), rgba(255, 0, 157, 1),rgba(84, 52, 200, 1));
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 2px;
+    border: 0px;
+    font-size: 15px;
+}
+.hireme:hover{
+    box-shadow: 0px 0px 5px 0px rgb(255, 0, 157);
+    background-image: linear-gradient(135deg,rgb(255, 136, 0), rgb(255, 0, 157),rgb(84, 52, 200));
+}
+#contact{
+    background-color: transparent;
+    background-image: linear-gradient(135deg,rgba(255, 136, 0, 0.149), rgba(255, 0, 157, 0.138),rgba(84, 52, 200, 0.171));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(15px);
+    height:60%;
+    width: 40%;
+    position: fixed;
+    top: 20%;
+    right: 30%;
+    border-radius: 10px;
+    box-shadow: -1px -1px 2px 0px rgba(255, 136, 0, 0.475) , 1px 1px 2px 0px rgba(115, 0, 255, 0.601);
+}
+.close{
+    width: 98%;
+    text-align: right;
+    padding-top: 10px;
+}
+.cont-det{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.card{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    background-color:transparent;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    border: 1px solid rgba(255, 255, 255, 0.134);
+    border-radius: 10px;
+    
+}
+.download-resume{
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 50px;
+}
