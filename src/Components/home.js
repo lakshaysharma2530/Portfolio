@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Profile from "./profile.jpg"
 import "./home.css"
 import { PHONE, EMAIL, ADDRESS, NAME, DESIGNATION, DESCRIPTION } from "./text";
-import close from "./cross.png"
 import email from "./email.png"
 import phone from "./phone.png"
 import location from "./location.png"

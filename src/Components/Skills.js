@@ -1,6 +1,5 @@
 import React from "react";
 import SkillCard from "./skillcard";
-import cross from './cross.png'
 import "./skills.css"
 import m from './mongodb-icon.svg'
 import e from './expressjs-icon.svg'
